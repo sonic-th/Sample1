@@ -1,0 +1,13 @@
+USERS DATA from SQL\JSON:
+---
+ID == 1
+FULLNAME == Dmitri Yurkin
+AGE == 28
+INFO == Owner
+---
+ID == 2
+FULLNAME == Anastasia Vorogushina
+AGE == 28
+INFO == Girlfriend
+---
+END OF USERS DATA
