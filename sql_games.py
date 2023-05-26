@@ -70,3 +70,5 @@ with open('data_users.txt', 'w', encoding='UTF-8') as txt_file:
         print('---', file=txt_file)
     print('END OF USERS DATA', file=txt_file)
 print('This informations writed in data_users.txt')
+
+# enough please
