@@ -27,6 +27,7 @@ try:
     cursor = connection.cursor()
     print('SQL Connected')
 
+    # cursor.execute(SQL_commands['insert'], (3, 'Ilya Luzakov', 28, 'Friend'))
     cursor.execute(SQL_commands['select'])
     data_fromSQL = cursor.fetchall()
     for id, data in enumerate(data_fromSQL, 1):
