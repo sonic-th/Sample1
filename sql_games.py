@@ -50,4 +50,12 @@ with open('data_from_SQL.json', 'w', encoding='UTF-8') as json_file:
 with open('data_from_SQL.json', 'r', encoding='UTF-8') as json_file:
     data_from_json_file = json.load(json_file)  # is a dict
     print('Data from JSON file loaded and represented as a dict "data_from_json_file":')
-    print(data_from_json_file)
+    print(data_from_json_file, '\n')
+
+
+print('USERS DATA from SQL\JSON:\n---')
+for userdata in data_from_json_file.values():
+    for key, value in userdata.items():
+        print(f'{key} == {value}')
+    print('---')
+print('END OF USERS DATA')
